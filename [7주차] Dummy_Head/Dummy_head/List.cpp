@@ -1,3 +1,4 @@
+//전자정보공학부 IT융합과 20170586 박재석
 #include "List.h"
 #include <assert.h>
 

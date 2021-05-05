@@ -1,9 +1,11 @@
-﻿#include <iostream>
+﻿//전자정보공학부 IT융합과 20170586 박재석
+#include <iostream>
 #include "List.h"
 using namespace std;
 
 int main()
 {
+	cout << "전자정보공학부 IT융합과 20170586 박재석" << endl;
 	List l;
 	ListElementType i; // header file defines this to be int
 	cout << "Enter items to add to list, add 0 to stop: ";
@@ -20,21 +22,6 @@ int main()
 		notEmpty = l.next(elem);
 	}
 	cout << " " << endl;
-
-	/*cout << "Here are the items after removed int the list\n";
-	ListElementType data;
-	bool notDelEmpty(l.first(data));
-	if (data == 4)
-	{
-		l.remove(data);
-	}
-	while (notDelEmpty) {
-		cout << elem << endl;
-		notDelEmpty = l.next(elem);
-	}
-	cout << " " << endl;*/
-
-
 	return 0;
 }
 
